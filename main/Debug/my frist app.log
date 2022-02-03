@@ -1,0 +1,33 @@
+﻿  FactoryPattemDemo.cpp
+C:\Users\tareq\source\repos\my frist app\my frist app\Rectangl.h(1,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\tareq\source\repos\my frist app\my frist app\Rectangl.h(13,10): error C2086: 'int Rectangl::length': redefinition
+C:\Users\tareq\source\repos\my frist app\my frist app\Rectangl.h(14,7): error C2086: 'int Rectangl::width': redefinition
+  Rectangl1.cpp
+C:\Users\tareq\source\repos\my frist app\my frist app\Rectangl.h(1,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\tareq\source\repos\my frist app\my frist app\Rectangl.h(13,10): error C2086: 'int Rectangl::length': redefinition
+C:\Users\tareq\source\repos\my frist app\my frist app\Rectangl.h(14,7): error C2086: 'int Rectangl::width': redefinition
+  Sample Class Demo.cpp
+C:\Users\tareq\source\repos\my frist app\my frist app\Rectangl.h(1,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\tareq\source\repos\my frist app\my frist app\Rectangl.h(13,10): error C2086: 'int Rectangl::length': redefinition
+C:\Users\tareq\source\repos\my frist app\my frist app\Rectangl.h(14,7): error C2086: 'int Rectangl::width': redefinition
+C:\Users\tareq\source\repos\my frist app\my frist app\Sample Class Demo.cpp(5,22): error C2600: 'Rectangl::Rectangl': cannot define a compiler-generated special member function (must be declared in the class first)
+C:\Users\tareq\source\repos\my frist app\my frist app\Sample Class Demo.cpp(8,23): error C2600: 'Rectangl::~Rectangl': cannot define a compiler-generated special member function (must be declared in the class first)
+  TemplateDemo.cpp
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(13,3): error C2524: 'vector2<T2>': a destructor must have a 'void' parameter list
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(19): message : see reference to class template instantiation 'vector2<T2>' being compiled
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(36,29): error C2244: 'vector2<T2>::~vector2': unable to match function definition to an existing declaration
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(36): message : see declaration of 'vector2<T2>::~vector2'
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(36,29): message : definition
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(36,29): message : 'vector2<T2>::~vector2(void)'
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(36,29): message : existing declarations
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(36,29): message : 'vector2<T2>::~vector2(T2)'
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(42,9): error C3861: 'root': identifier not found
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(13,3): error C2524: 'vector2<int>': a destructor must have a 'void' parameter list
+C:\Users\tareq\source\repos\my frist app\my frist app\TemplateDemo.cpp(8): message : see reference to class template instantiation 'vector2<int>' being compiled
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(19,1): error C7653: 'vector2<int>': failed to select a destructor for the class
+C:\Users\tareq\source\repos\my frist app\my frist app\TemplateDemo.cpp(8,17): error C2660: 'vector2<int>::~vector2': function does not take 0 arguments
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(13,3): message : see declaration of 'vector2<int>::~vector2'
+C:\Users\tareq\source\repos\my frist app\my frist app\TemplateDemo.cpp(13,31): error C2672: 'vector2<int>::getRoot': no matching overloaded function found
+C:\Users\tareq\source\repos\my frist app\my frist app\TemplateDemo.cpp(13,31): error C2783: 'Node1<T2> *vector2<int>::getRoot(void)': could not deduce template argument for 'T2'
+C:\Users\tareq\source\repos\my frist app\my frist app\LinkedList.hh(15): message : see declaration of 'vector2<int>::getRoot'
+  Generating Code...
